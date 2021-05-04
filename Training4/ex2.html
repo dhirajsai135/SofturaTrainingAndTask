@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title></title>
+    <script>
+        //var user = {
+        //    username: "Madineni Vemanth",
+        //    Type: "Adhoka type vaadu",
+        //    age:"10"
+        //}
+        //console.log(user);
+        //var string = ["hello","world","Juice","Ice cream"]
+        //for (var i = 0; i < string.length; i++) {
+        //    console.log(string[i])
+        //}
+        var userPass = [{ username: "dheeraj", password: "1234" },
+            { username: "venkata", password: "3421" },
+            { username: "phani", password: "9091" }]
+        for (var i = 0; i < userPass.length; i++) {
+            console.log(userPass[i])
+        }
+        function checklogin() {
+            var validUsername = document.getElementById("txtUsername").value;
+            var validPassword = document.getElementById("txtPassword").value;
+            for (var i = 0; i < userPass.length; i++) {
+                if (userPass[i].password == validPassword && userPass[i].username == validUsername) {
+                    alert("Welcome Bro")
+                    return;
+                }
+            }
+            alert("Invalid Username or Password")
+        }
+    </script>
+    <style>
+        div{
+            width:200px;
+            border-color:chocolate;
+            margin-top:100px;
+            margin-left:150px;
+        }
+        #txtUsername,#txtPassword,#submit,#reset{
+            border-radius:30px;
+        }
+        #txtpass,#txtuser{
+            background:azure;
+            border-block-color:chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert alert-secondary">
+        <label for="txtUsername" id="txtuser" class="form-control">Username:</label>
+        <input type="text" id="txtUsername" class="form-control" />
+
+        <label class="form-control mt-3" id="txtpass" for="txtPassword">Password:</label>
+        <input type="password" class="form-control" id="txtPassword" />
+
+        <button class="btn btn-primary mt-4" id="submit" onclick="checklogin()">Login</button>
+        <input type="reset" id="reset" class="btn btn-primary mt-4"></input>
+
+    </div>
+
+</body>
+</html>

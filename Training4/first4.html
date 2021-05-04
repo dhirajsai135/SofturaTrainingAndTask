@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Document</title>
+    <script>
+        var users = [{ username: "dheeraj", password: "1234", phone: "9989348069", location: "Nellore" },
+        { username: "venkat", password: "3456", phone: "9989348079", location: "ongole" },
+            { username: "phani", password: "6789", phone: "9989348089", location: "varanasi" }]
+
+
+        function addInitialRecords() {
+            var myTable = document.getElementById("tblUsers")
+            for (var i = 0; i < users.length; i++) {
+                var row = myTable.insertRow(i + 1);
+                var cellUN = row.insertCell(0);
+                var cellPass = row.insertCell(1);
+                var cellphone = row.insertCell(2);
+                var cellLoc = row.insertCell(3);
+                cellUN.innerHTML = users[i].username;
+                cellPass.innerHTML = users[i].password;
+                cellphone.innerHTML = users[i].phone;
+                cellLoc.innerHTML = users[i].location;
+            }
+        }
+
+
+         function checklogin() {
+           var validUsername = document.getElementById("txtUsername").value;
+           var validPassword = document.getElementById("txtPassword").value;
+           var validPhone = document.getElementById("txtPhone").value;
+           var validLocation = document.getElementById("txtLocation").value;
+
+           for (var i = 0; i < users.length; i++) {
+               if ((users[i].username == validUsername) && (users[i].password == validPassword) && (users[i].phone == validPhone) && (users[i].location == validLocation)) {
+                   alert("Welcome Bro");
+                   return;
+               }
+               alert("Invalid Username or Password");
+           }
+
+        }
+
+
+        function myFunction() {
+            var txtInfo = document.getElementById("txtInfo");
+            txtInfo.classList.add("border")
+            alert("Your info has been saved....")
+        }
+     
+        function registerUser() {
+        var username = document.getElementById("txtUsername").value;
+        var password = document.getElementById("txtPassword").value;
+        var phone = document.getElementById("txtPhone").value;
+        var location = document.getElementById("txtLocation").value;
+            var myUser = {
+                username: username,
+                password: password,
+                phone: phone,
+                location:location
+            }
+            users.push(myUser);
+            console.log("$$$$$$$$$$$$$$$$$$$$$$$$$")
+            console.log(users);
+            var count = users.length
+            var myTables = document.getElementById("tblUsers")
+            var row = myTables.insertRow(count)
+            var cellUN = row.insertCell(0)
+            var cellPass = row.insertCell(1)
+            var cellphone = row.insertCell(2)
+            var celllocation = row.insertCell(3)
+            cellUN.innerHTML = users[count - 1].username
+            cellPass.innerHTML = users[count - 1].password
+            cellphone.innerHTML = users[count - 1].phone
+            celllocation.innerHTML = users[count-1].location
+        }
+    </script>
+    <style>
+        div {
+            width: 40%;
+            border-color: chocolate;
+            margin-top: 100px;
+            margin-left: 150px;
+        }
+
+        #txtUsername, #txtPassword, #submit, #reset {
+            border-radius: 30px;
+        }
+
+        #txtpass, #txtuser {
+            background: azure;
+            border-block-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <div class="alert alert-secondary">
+        <label for="txtUsername" id="txtuser" class="form-control">Username:</label>
+        <input type="text" id="txtUsername" class="form-control" />
+
+        <label class="form-control mt-3" id="txtpass" for="txtPassword">Password :</label>
+        <input type="password" class="form-control" id="txtPassword" />
+
+        <label class="form-control mt-3" id="txtpass" for="txtPassword">Mobile :</label>
+        <input type="text" class="form-control" id="txtPhone" />
+
+        <label class="form-control mt-3" id="txtpass" for="txtLocation">Location :</label>
+        <input type="text" class="form-control" id="txtLocation" />
+
+        <button class="btn btn-primary mt-4" id="submit" onclick="myFunction()">Login</button>
+        <input type="reset" id="reset" class="btn btn-primary mt-4"></input>
+
+    </div>
+    <div>
+        <button class="btn btn-danger" onclick="addInitialRecords()">Set Table</button>
+
+        <table id="tblUsers" border="4">
+            <tr>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Phone</th>
+                <th>Location</th>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

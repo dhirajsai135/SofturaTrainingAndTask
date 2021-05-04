@@ -1,0 +1,35 @@
+body{
+    background-color:#5B84B1FF;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+span{
+    text-decoration: dotted;
+    color:black;
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+div{
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px; */
+    border:white 5px solid;
+    height: 150px;
+    width: 150px;
+    float:left;
+    margin: 20px 20px 10px 20px;
+}
+#div1{
+    background-color:#42EADDFF;
+}
+#div2{
+    background-color: #CDB599FF;
+}
+#div3{
+    margin-bottom:40px ;
+    padding: 20px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style2.css" for="stylesheet"/>
+    <style>
+        div{
+            
+            background-color: thistle;
+            height:200px;
+            width:200px;
+            text-align: center;
+            
+        }
+        #disp1{
+            position:relative;
+            left:0px;
+            top:0px;
+            border-radius: 150px;
+            animation-name:dispanimate;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            
+        }
+        /* @keyframes dispanimate{
+            from{
+                left:10px;
+            }
+            to{
+                left:500px;
+            }
+        } */
+        @keyframes dispanimate{
+            10%{
+                left:0px;
+                top:0px;
+            }
+            25%
+            {
+                left:25px;
+                top:50px;
+                transform: rotate(25deg);
+
+            }
+            50%{
+                left:50px;
+                top:0px;
+                transform: rotate(45deg);
+            }
+            75%{
+                left:75px;
+                top:50px;
+                transform: rotate(90deg);
+            }
+            100%{
+                left:100px;
+                top:0px;
+                transform:rotate(180deg)
+            }
+        }
+        /* #disp1:hover
+        {
+            top:250px;
+            left:250px;
+        } */
+        input:disabled
+        {
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="disp1">
+        Hello world
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <input type="text" />
+    <br/>
+    <br/>
+    <input type="password" disabled/>
+
+</body>
+</html>

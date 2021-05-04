@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position:absolute;
+            margin-top:200px;
+            margin-left:500px;
+            padding: 100px;  
+        }
+        button,input{
+            border-radius: 30px;
+            padding:10px;
+        }
+        body{
+            background-color: azure;
+        }
+        .disp1{
+            background-color: yellowgreen;
+            color:black;
+            padding:10px;
+        }
+        button .disp1{
+            border:1px black solid;
+        }
+        label.disp1{
+            text-decoration: underline;
+        }
+        ::placeholder
+        {
+            color:teal;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="text-align:center;">Login Here</h1>
+        <label class="disp1" for="txtuser" >Username: </label>
+        &nbsp;&nbsp;
+        <input type="text" id="txtuser" placeholder="Username"/>
+        <br/>
+        <br/>
+        <label class="disp1" for="pass" >Password: </label>
+        &nbsp;&nbsp;
+        <input type="password" id="pass"/>
+        <br/>
+        <br/>
+        <button class="disp1">Login</button>
+        <button >Reset</button>
+    </div>
+
+</body>
+</html>
