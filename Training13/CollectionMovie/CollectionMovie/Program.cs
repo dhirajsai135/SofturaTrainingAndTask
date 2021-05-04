@@ -70,7 +70,7 @@ namespace CollectionMovie
                 }
                 else
                 {
-                    Console.WriteLine("The colle tion is empty");
+                    Console.WriteLine("The colletion is empty");
                 }
             }
             catch (NullReferenceException nullreference)
