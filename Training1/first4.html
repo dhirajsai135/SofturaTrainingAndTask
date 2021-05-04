@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="first.html">
+        <table>
+            <tr>
+                <td><label for="txtfirstname">FirstName: </label></td>
+                <td><input type="text" id="txtfirstname" required/></td>
+            </tr>
+            <tr>
+                <td><label for="txtlastname">LastName: </label></td>
+                <td><input type="text" id="txtlastname" required/></td>
+            </tr>
+            <tr>
+                <td><label for="formdate">DOB: </label></td>
+                <td><input type="date" id="formdate"/><td></td>
+            </tr>
+            <tr>
+                <td><label> Password: </label></td>
+                <td><input type="password" id="txtpass" maxlength="10"/></td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" id="maleradio" name="genderradio"/>Male
+                <input type="radio" id="femaleradio" name="genderradio"/>Female</td>
+            </tr>
+            <tr>
+                <td><label>Select one</label></td>
+                <td><input type="checkbox" id="checkid" checked/>no
+                <input type="checkbox" id=checkid/> yes
+            </tr>
+            <tr>
+                <td><label for="ddlcity">City</label></td>
+                <td>
+                    <select id="ddlcity">
+                        <option value="hyd">Hyderabad </option>
+                        <option value="bang">Bengaluru</option>
+                        <option value="Mum" checked>Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ddlstate">State</label></td>
+                <td>
+                    <input list="ddlstate"/>
+                    <datalist id="ddlstate">
+                        <option value="Andhra pradesh"> </option>
+                        <option value="Karnataka"></option>
+                        <option value="Maharasthra"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit"/>
+                <input type="reset"/>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    
+</body>
+</html>
