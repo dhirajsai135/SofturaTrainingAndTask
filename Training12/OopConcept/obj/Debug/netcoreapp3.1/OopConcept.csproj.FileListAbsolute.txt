@@ -1,0 +1,13 @@
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.exe
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.deps.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.runtimeconfig.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.runtimeconfig.dev.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\bin\Debug\netcoreapp3.1\OopConcept.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.csprojAssemblyReference.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.AssemblyInfoInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.AssemblyInfo.cs
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.csproj.CoreCompileInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training12\OopConcept\obj\Debug\netcoreapp3.1\OopConcept.genruntimeconfig.cache
