@@ -1,0 +1,13 @@
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.exe
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.deps.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.runtimeconfig.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.runtimeconfig.dev.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\bin\Debug\netcoreapp3.1\Task28Apr.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.csprojAssemblyReference.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.AssemblyInfoInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.AssemblyInfo.cs
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.csproj.CoreCompileInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training10\Task28Apr\obj\Debug\netcoreapp3.1\Task28Apr.genruntimeconfig.cache
