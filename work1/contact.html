@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Contact</title>
+    <style>
+         button,input{
+            border-radius: 30px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="logo.jpg" height="150" width="150" alt="LOGO"/>   
+        <p style="text-align: center;">
+            <font color="blue" style="display: inline;" face="Times New Roman" size="+6">Big-Z mobiles</font>
+        </p> 
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
+        <table border="2">
+            <tr>
+                <th><a href="http://127.0.0.1:5500/home.html"/>Home</th>
+               <font color="blue"> <th>Contact us</th></font>
+            </tr>
+        </table>
+
+    <br/>
+    <br/>
+    <br/>  
+    <form >
+        <div>
+            <h4>Adrress :</h4>
+            <br/>
+            <h4>H.no:3-149<br/>
+                tree street<br/>
+                Nellore District<br/>
+                Andhra Pradesh<br/>
+                Pincode:524002
+            </h4>
+    
+        </div>
+    <br/>
+    <br/>
+    <br/>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.5275084002196!2d80.03024573995553!3d14.454371896765863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c8b3626aa7097%3A0x249513983a8d3bd2!2sPrimary%20Health%20Centre!5e0!3m2!1sen!2sin!4v1618483183150!5m2!1sen!2sin" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br/>
+    <br/>
+        <table>
+            <tr>
+                <td><label for="email">Username : </label></td>
+                <td><input class="disp1" type="text" id="email" required/></td>
+            </tr>
+            <tr>
+                <td><label> Password: </label></td>
+                <td><input  class="disp1"type="password" id="txtpass" maxlength="10"/></td>
+            </tr>
+            <tr>
+                <td><label for="ddlstate">State:</label></td>
+                <td>
+                    <input class="disp1" list="ddlstate"/>
+                    <datalist id="ddlstate">
+                        <option value="Andhra pradesh"> </option>
+                        <option value="Karnataka"></option>
+                        <option value="Maharasthra"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label>policy :</label></td>
+                <td><input type="radio" id="maleradio" name="genderradio"/>I Agree
+                <input type="radio" id="femaleradio" name="genderradio"/>I don't Agree</td>
+            </tr>
+            <tr>
+                <td>
+                <input class="disp1" type="submit"/>
+                <input class="disp1" type="reset"/>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>
