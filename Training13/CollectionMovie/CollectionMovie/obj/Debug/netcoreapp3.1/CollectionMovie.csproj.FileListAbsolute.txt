@@ -1,0 +1,13 @@
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.exe
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.deps.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.runtimeconfig.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.runtimeconfig.dev.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\bin\Debug\netcoreapp3.1\CollectionMovie.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.csprojAssemblyReference.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.AssemblyInfoInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.AssemblyInfo.cs
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.csproj.CoreCompileInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training13\CollectionMovie\CollectionMovie\obj\Debug\netcoreapp3.1\CollectionMovie.genruntimeconfig.cache
