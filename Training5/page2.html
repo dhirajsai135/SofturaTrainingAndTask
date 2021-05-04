@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        table{
+            width:200px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            var data = "";
+            $(".erClr").blur(function () {
+                var myVal = $(this).val();
+                if (myVal = "")
+                    $(this).css("border-color", "red");
+                else
+                    data = data + " " + $(this).val();
+            });
+            $("#ddlcity").change(function () {
+                data = data + " " + $(this).val();
+            });
+            $("btnSubmit").click(function () {
+                document.getElementById("divData").innerHTML = data;
+                $("divData").html(data);
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+        <table>
+            <tr>
+                <td><label class="form-control" for="txtfirstname">FirstName: </label></td>
+                <td><input class="form-control erClr" type="text" id="txtfirstname" /></td>
+            </tr>
+            <tr>
+                <td><label class="form-control" for="txtlastname">LastName: </label></td>
+                <td><input class="form-control erClr" type="text" id="txtlastname" /></td>
+            </tr>
+            <tr>
+                <td><label class="form-control" for="formDate">DOB: </label></td>
+                <td><input class="form-control" type="date" id="formdate"/><td></td>
+            </tr>
+            <tr>
+                <td><label class="form-control"> Password: </label></td>
+                <td><input class="form-control erClr"  type="password" id="txtpass" maxlength="10"/></td>
+            </tr>
+            <tr>
+                <td><label class="form-control">Gender</label></td>
+                <td><input class="form-control" type="radio" id="maleradio" name="genderradio"/>Male
+                <input class="form-control" type="radio" id="femaleradio" name="genderradio"/>Female</td>
+            </tr>
+            <tr>
+                <td><label class="form-control">Select one</label></td>
+                <td><input class="form-control" type="checkbox" id="checkid" checked/>no
+                <input class="form-control" type="checkbox" id=checkid/> yes
+            </tr>
+            <tr>
+                <td><label class="form-control" for="ddlcity">City</label></td>
+                <td>
+                    <select id="ddlcity">
+                        <option value="hyd">Hyderabad </option>
+                        <option value="bang">Bengaluru</option>
+                        <option value="Mum" checked>Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label class="form-control" for="ddlstate">State</label></td>
+                <td>
+                    <input list="ddlstate"/>
+                    <datalist id="ddlstate">
+                        <option value="Andhra pradesh"> </option>
+                        <option value="Karnataka"></option>
+                        <option value="Maharasthra"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit" id="btnSubmit" class="btn btn-primary"/>
+                <input type="reset" class="btn btn-primary"/>
+                </td>
+            </tr>
+            
+        </table>
+    <div id="divData">
+
+    </div>
+    
+</body>
+</html>
