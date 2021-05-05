@@ -63,6 +63,10 @@ namespace TransportManagementBLLibrary
         {
             throw new NotImplementedException();
         }
+        public void Add()
+        {
+            throw new NotImplementedException();
+        }
 
         public void Update(int id, Employee t)
         {
