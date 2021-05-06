@@ -1,0 +1,9 @@
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\bin\Debug\netcoreapp3.1\TransportDALLibrary.deps.json
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\bin\Debug\netcoreapp3.1\TransportDALLibrary.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\bin\Debug\netcoreapp3.1\TransportDALLibrary.pdb
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.csprojAssemblyReference.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.AssemblyInfoInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.AssemblyInfo.cs
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.csproj.CoreCompileInputs.cache
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.dll
+C:\Users\dhira\OneDrive\Desktop\SofturaTraining\Training16\TransportSolution\TransportDALLibrary\obj\Debug\netcoreapp3.1\TransportDALLibrary.pdb
